@@ -116,3 +116,11 @@ ul li:before {
 	text-align: center;
 }
 
+.poem {
+	font-family: 'Garamond';
+	font-size: 12pt;
+	color: #c6c6c6;
+	text-align: center;
+}
+
+
