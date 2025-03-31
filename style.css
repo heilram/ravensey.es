@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'celtic_garamond_the_2ndRg';
+    src: url('fonts/celtic-webfont.woff2') format('woff2'),
+         url('fonts/celtic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	color: #eeeeee;
+	background: #262626;
+	max-width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	color: #87afd7;
+	font-family: 'celtic_garamond_the_2ndRg';
+}
+
+h2 {
+	font-family: 'celtic_garamond_the_2ndRg';
+	text-align: center;
+}
+
+p {
+	font-family: 'Garamond';
+	font-size: 10pt;
+	color: #c6c6c6;
+	text-align: left;
+}
+
+figcaption {
+	font-family: 'Garamond';
+	font-size: 8.25pt;
+	font-weight: 300;
+	font-style: italic;
+	text-align: center;
+}
+
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	text-align: left;
+}
+
+ul li:before {
+	content: ".";
+	font-size: 17pt;
+	position: absolute;
+	left: 0;
+}
+
+.more {
+	font-family: 'Garamond';
+	font-size: 8.25pt;
+	font-weight: 300;
+	font-style: italic;
+	text-align: center;
+	color: #c6c6c6;
+	text-decoration: none;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+	text-align: center;
+}
+
+.centred-text {
+	text-align: center;
+}
+
+.list1 {
+	font-family: 'Garamond';
+	font-size: 15pt;
+	font-weight: 400;
+	color: #c6c6c6;
+}
+
+.menu-bar {
+	color: #c6c6c6;
+	text-decoration: none;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+	text-align: center;
+}
+.header-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20%;
+}
+
+.header-image {
+	width: 4%;
+	height: auto;
+}
+
+.left-img {
+	float: left;
+	margin-right: 3%;
+}
+
+.right-txt {
+	float:right;
+}
+
+.post-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.quote {
+	text-align: center;
+}
+
+.poem {
+	font-family: 'Garamond';
+	font-size: 12pt;
+	color: #c6c6c6;
+	text-align: center;
+}
+
